@@ -1,0 +1,397 @@
+<!DOCTYPE html>
+<!--Documento HTML radice -->
+<html lang="it">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>MVSEI VATICANI</title>
+  <style>
+    body {
+      margin: 0;
+      height: 100vh;
+      position: relative;
+      font-family: Arial, sans-serif;
+    }
+
+    }
+  </style>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      display: flex;
+      height: 100vh;
+      font-family: Arial, sans-serif;
+      color: white;
+      background-color: #f4f4f4;
+    }
+
+    /* MENU LATERALE */
+    nav {
+  width: 220px;
+  background-color: #000;
+  padding: 30px 40px;
+  position: absolute;
+  top: 20%;
+  left: 0;
+  transform: translateY(-50%);
+}
+
+
+    nav h2 {
+      color: yellow;
+      margin-bottom: 20px;
+    }
+
+    nav ul {
+      list-style: none;
+    }
+
+    nav ul li {
+      margin: 20px 0;
+    }
+
+    nav ul li a {
+      color: yellow;
+      text-decoration: none;
+      font-size: 16px;
+      font-weight: bold;
+    }
+
+    .main-content {
+      flex: 1;
+      display: flex;
+      flex-direction: column;
+    }
+
+    .hero-text {
+      position: absolute;
+      top: 50%;
+      left: 50%;
+      transform: translate(-50%, -50%);
+      font-size: 60px;
+      font-weight: bold;
+      color: white;
+      background-color: rgba(0, 0, 0, 0.4);
+      padding: 20px 40px;
+      border-radius: 8px;
+      text-align: center;
+    }
+
+   
+  </style>
+</head>
+<body>
+
+  <!-- Menu Laterale -->
+  <section>
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+    }
+
+    nav {
+      background-color: #f9f9f9;
+      padding: 10px 20px;
+    }
+
+    ul.menu {
+      list-style: none;
+      margin: 0;
+      padding: 0;
+    }
+
+    ul.menu > li {
+      display: inline-block;
+      position: relative;
+      margin-right: 0px;
+    }
+
+    ul.menu > li > a {
+      text-decoration: none;
+      color: black;
+      font-weight: bold;
+      padding: 10px 15px;
+      display: block;
+    }
+
+    /* Dropdown base */
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      top: 100%;
+      left: 0;
+      background-color: white;
+      width: 80vw;
+      box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+      border-top: 2px solid #ccc;
+      z-index: 2;
+      flex-wrap: nowrap;
+    }
+
+    .menu > li:hover .dropdown-content {
+      display: flex;
+    }
+
+    .column {
+      flex: 1;
+      padding: 20px;
+      border-right: 1px solid #ccc;
+      box-sizing: border-box;
+      color: black;
+    }
+
+    .column:last-child {
+      border-right: none;
+    }
+
+    .column h4 {
+      font-weight: bold;
+      font-style: italic;
+      margin-bottom: 10px;
+      color: black;
+    }
+
+    .column ul {
+      padding: 0;
+      margin: 5px;
+      list-style: none;
+      font-size: 0.9em;
+    }
+
+    .column ul li {
+      margin-bottom: 5px;
+    }
+
+    /* Specifico per testo INFO */
+    .column p, .column a {
+      color: black;
+      font-size: 0.95em;
+      margin: 5px 5px;
+      text-decoration: none;
+    }
+
+    .column a:hover {
+      text-decoration: underline;
+    }
+
+    /* Layout generale */
+    .menu .dropdown-content {
+      display: none;
+    }
+
+    .menu > li:hover .dropdown-content {
+      display: flex;
+    }
+
+     
+  </style>
+</head>
+<body>
+
+<nav>
+  <ul class="menu">
+    <li>
+      <a href="#">ESPLORA &#9776;  <!-- ☰ --></a>
+      <div class="dropdown-content">
+        <div class="column">
+          <h4><STRONG>MUSEI DEL PAPA</STRONG></h4>
+          <ul>
+            <li>Missione</li>
+            <li>Storia</li>
+            <li>Saluto del Direttore</li>
+            <li>Organizzazione</li>
+            <li>Stage</li>
+          </ul>
+        </div>
+        <div class="column">
+          <h4>Collezioni</h4>
+          <ul>
+            <li>Musei</li>
+            <li>Aree Archeologiche</li>
+            <li>Reparti</li>
+            <li>Restauri e Servizi Scientifici</li>
+            <li>Capolavori</li>
+            <li>Catalogo online</li>
+          </ul>
+        </div>
+        <div class="column">
+          <h4>Organizza la tua visita</h4>
+          <ul>
+            <li>Scegli la visita</li>
+            <li>Tariffe e Biglietti</li>
+            <li>Consigli utili</li>
+            <li>Servizi al visitatore</li>
+            <li>Didattica</li>
+          </ul>
+        </div>
+        <div class="column">
+          <h4>Eventi e Novità</h4>
+          <ul>
+            <li>Notizie</li>
+            <li>Iniziative</li>
+            <li>Giubileo 2025</li>
+            <li>Editoria</li>
+            <li>MV nel mondo</li>
+            <li>Area stampa</li>
+          </ul>
+        </div>
+      </div>
+    </li>
+    
+    <li>
+      <a href="#">INFO &#9432; <!-- ℹ --></a> 
+      <div class="dropdown-content">
+        <div class="column">
+          <h4><strong><em>Giorni e Orari di apertura 2025</em></strong></h4>
+          <p>Dal lunedì al sabato</p>
+          <p>H. 8.00 - 20.00 (ultimo ingresso h. 18.00)</p>
+          <br>
+          <p>Ogni ultima domenica del mese</p>
+          <p>H. 9.00 - 14.00 (ultimo ingresso h. 12.30)</p>
+          <p>Ingresso gratuito - Possibilità di visita guidata su prenotazione</p>
+        </div>
+        <div class="column">
+          <h4><strong><em>Dove siamo</em></strong></h4>
+          <p>Viale Vaticano snc, 00165 Roma</p>
+          <p><iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2969.3836505717413!2d12.450399025771771!3d41.90611067123864!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x132f6063839bc129%3A0xcfe0eca0526416b6!2sMusei%20Vaticani!5e0!3m2!1sit!2sit!4v1746650707488!5m2!1sit!2sit" width="400" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></p>
+        </div>
+        <div class="column">
+          <h4><strong><em>Contatti</em></strong></h4>
+          <p>Informazioni generali</p>
+          <p>+39 06 69883145</p>
+          <p><a href="mailto:info.musei@scv.va">info.musei@scv.va</a></p>
+          <p>Uffici della Direzione</p>
+          <p>+39 06 69883332</p>
+          <p><a href="mailto:musei@scv.va">musei@scv.va</a></p>
+        </div>
+      </div>
+    </li>
+  </ul>
+</nav>
+
+</body>
+</html>
+
+</section>
+
+</head> 
+ 
+  <body>
+    <link rel="stylesheet" href="file:///C:/Users/auror/OneDrive/Desktop/men%C3%B9.css">
+  <div class="main-content" id="main-content">
+
+  
+    <header class="header">
+      <div class="search-container">
+        <input type="text" placeholder="Cerca..." />
+        <span class="icon">&#x1F50D;  <!-- 🔍 --></span> 
+      </div>
+    </header>
+
+<head> 
+ <style>
+.menu-image {
+  width:200px;
+  height: 300px;
+  margin-top: 230px;
+  margin-left: 10px;
+}
+ </style>  
+  <body>
+    <img src="C:\Users\auror\OneDrive\Desktop\esame inf.umanistica\logo.png" alt="simbolo musei vaticani" class="menu-image">
+  </nav>
+
+  <main class="main-content">
+   </body> 
+ </head> 
+
+ <link rel="stylesheet" href="file:///C:/Users/auror/OneDrive/Desktop/esame%20inf.umanistica/css/immagine.css">
+  <div class="slideshow-container">
+    <div class="slide active" style="background-image: url('file:///C:/Users/auror/OneDrive/Desktop/esame%20inf.umanistica/sfondo1.jpg');"></div>
+    <div class="slide" style="background-image: url('file:///C:/Users/auror/OneDrive/Desktop/esame%20inf.umanistica/sfondo2.JPG');"></div>
+    <div class="slide" style="background-image: url('file:///C:/Users/auror/OneDrive/Desktop/esame%20inf.umanistica/sfondo3.jpg');"></div>
+    <div class="slide active" style="background-image: url('file:///C:/Users/auror/OneDrive/Desktop/esame%20inf.umanistica/sfondo4.jpg');"></div>
+    <div class="slide active" style="background-image: url('file:///C:/Users/auror/OneDrive/Desktop/esame%20inf.umanistica/sfondo5.JPG');"></div>
+  </div>
+
+  <!-- Titolo + Bottoni -->
+  <div class="bottom-bar">
+    <div class="title">MV</div>
+    <div class="controls">
+      <button onclick="showPrev()">&#8592; Indietro</button>
+      <button onclick="showNext()">Avanti &#8594;</button>
+    </div>
+  </div>
+  <script src="file:///C:/Users/auror/OneDrive/Desktop/esame%20inf.umanistica/js/immagine.js"></script>
+
+
+    <!-- FOOTER MENU -->
+     <link rel="stylesheet" href="file:///C:/Users/auror/OneDrive/Desktop/esame%20inf.umanistica/css/men%C3%B9tendinafooter.css">
+     <footer class="footer">
+    <footer class="footer-menu">
+    <div class="footer-item">
+      <a href="#">MUSEI DEL PAPA</a>
+    </div>
+    <div class="footer-item">
+      <a href="#">COLLEZIONI</a>
+      <div class="dropdown-menu">
+        <div class="dropdown-column">
+          <h3><strong>Scopri i musei</strong></h3>
+          <ul>
+            <li>Museo Gregoriano Egizio</li>
+            <li><a href="file:///C:/Users/auror/OneDrive/Desktop/esame%20inf.umanistica/html/museo_pio_clementino.html">Museo Pio Clementino</a></li>
+            <li>Galleria Lapidaria</li>
+            <li>Museo Gregoriano Profano</li>
+            <li>Museo Pio Cristiano</li>
+            <li>Lapidario Ebraico</li>
+            <li>Museo Etnologico Anima Mundi</li>
+            <li>Museo Cristiano</li>
+            <li>Sala delle Nozze Aldobrandine</li>
+            <li>Collezione d'Arte Moderna e Contemporanea</li>
+            <li>Stanze di Raffaello</li>
+            <li>Cappella Niccolina</li>
+            <li>Sala dell'Immacolata</li>
+          </ul>
+        </div>
+        <div class="dropdown-column">
+          <ul>
+            <li>Museo Gregoriano Etrusco</li>
+            <li>Museo Chiaramonti</li>
+            <li>Braccio Nuovo</li>
+            <li>Lapidario Profano ex Lateranense</li>
+            <li>Lapidario Cristiano</li>
+            <li>Pinacoteca</li>
+            <li>Padiglione delle Carrozze</li>
+            <li>Museo Profano</li>
+            <li>Cappella di San Pietro Martire</li>
+            <li>Cappella Sistina</li>
+            <li>Appartamento Borgia</li>
+            <li>Cappella di Urbano VIII</li>
+            <li>Sala dei Chiaroscuri</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+    <div class="footer-item"><a href="#">STORIA DEL MUSEO</a></div>
+    <div class="footer-item"><a href="#">ORGANIZZA LA TUA VISITA</a></div>
+    <div class="footer-item"><a href="#">EVENTI E NOVITÀ</a></div>
+  </footer>
+  <script src="file:///C:/Users/auror/OneDrive/Desktop/men%C3%B9.js"></script>
+</div>
+</body>
+</html>
+  
+    
+
+    
+
+
+
+

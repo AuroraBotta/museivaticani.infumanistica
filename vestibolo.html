@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="it">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Vestibolo Quadrato e Gabinetto dell'Apoxyomenos</title>
+  <style>
+    /* Reset di base */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  background-color: #fff;
+}
+
+/* Header */
+header {
+  background-color: black;
+  color: white;
+  height: 40px;
+  padding: 10px 20px;
+  font-size: 14px;
+  text-align: left;
+}
+
+/* Hero image full screen */
+.hero {
+  width: 100%;
+  height: 100vh;
+  background-image: url('https://www.museivaticani.va/content/dam/museivaticani/immagini/collezioni/musei/museo_pio_clementino/01_00_vestibolo_quadrato_apoxyomenos.jpg/_jcr_content/renditions/cq5dam.web.1280.1280.jpeg'); 
+  background-size: cover;
+  background-position: center;
+  position: relative;
+}
+
+/* Riquadro in basso semi-trasparente */
+.overlay-box {
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 33vh;
+  background-color: rgba(0, 0, 0, 0.7); /* nero semi-trasparente */
+  color: white;
+  padding: 20px;
+  overflow-y: auto;
+}
+
+.overlay-box h1 {
+  color: yellow;
+  font-size: 16px;
+  margin-bottom: 10px;
+}
+
+.overlay-box em {
+  font-style: italic;
+}
+
+.overlay-box p {
+  font-size: 14px;
+  line-height: 1.5;
+}
+
+a {
+  color: yellow;
+  font-weight: bold;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline; /* facoltativo: aggiunge sottolineatura al passaggio del mouse */
+}
+  </style>
+</head>
+<body>
+
+  <!-- Header -->
+  <header>
+    <p>Home > Collezioni > Museo Pio Clementino > Vestibolo Quadrato e Gabinetto dell'<em>Apoxyomenos</em></p>
+  </header>
+
+  <!-- Main -->
+  <main>
+    <div class="hero">
+      <div class="overlay-box">
+        <h1>Vestibolo Quadrato e Gabinetto dell'<a href="file:///C:/Users/auror/OneDrive/Desktop/esame%20inf.umanistica/html/Apoxyomenos.html"><em>Apoxyomenos</em></a></h1>
+                 <br><br>
+        <p>
+          La visita al Museo Pio Clementino ha inizio dal Vestibolo Quadrato. L'aspetto attuale dell'ambiente è legato alla sua funzione di ingresso al Museo di Clemente XIV (1769-1774), come chiarisce l'iscrizione <em>Museum Clementinum</em> sopra l'arco d'accesso.
+          Vi sono ora esposti il monumentale sarcofago di Lucio Cornelio Scipione Barbato (console del 290 a.C.) e alcune iscrizioni, rinvenuti complessivamente nel Sepolcro degli Scipioni lungo la via Appia.
+          Attraverso il Vestibolo Rotondo si accede al Gabinetto dell'<em>Apoxyomenos</em> che prende il nome dalla nota copia marmorea del bronzo di Lisippo. Attualmente conserva molte iscrizioni e il ritratto in tufo di un giovane coronato d'alloro, il cosiddetto "Ennio", provenienti anch'essi dal Sepolcro degli Scipioni.
+        </p>
+      </div>
+    </div>
+  </main>
+
+</body>
+</html>
